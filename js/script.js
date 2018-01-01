@@ -19,7 +19,7 @@ function loadData() {
     $greeting.text('So, you want to live at ' + address + '?');
 
     $body.append(
-        '<img class="bgimg" src="https://maps.googleapis.com/maps/api/streetview?size=600x400&location='
+        '<img class="bgimg" src="https://maps.googleapis.com/maps/api/streetview?api-key=AIzaSyDOk3l22yIdCLw9cUykA27hZZD4y3NrboY&size=600x400&location='
         + address + '">');
 
     // NY Times ajax request
